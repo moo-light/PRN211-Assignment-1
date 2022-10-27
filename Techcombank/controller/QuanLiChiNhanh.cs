@@ -267,7 +267,7 @@ namespace Techcombank.controller
         public void WriteToFile(string filename)
         {
             StreamWriter sr = new(filename);
-            this.ForEach(ch => sr.WriteLine(ch.ToString());
+            this.ForEach(ch => sr.WriteLine(ch.ToString()));
             //foreach (ChiNhanh ch in this)
             //{
             //    sr.WriteLine(ch.ToString());
